@@ -208,6 +208,20 @@ body {
   background-color: var(--primary);
 }
 
+/* new note hover color */
+#react-root
+  > div
+  > div
+  > div.resizableLayoutItem.rli-root
+  > div.resizableLayoutItem.rli-noteList
+  > div
+  > div
+  > div
+  > div
+  > button:hover {
+  background-color: #0d6f9c;
+}
+
 #react-root
   > div
   > div
