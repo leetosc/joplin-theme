@@ -223,6 +223,52 @@ body {
   padding-right: 0px !important;
 }
 
+/* editor footer  */
+#react-root
+  > div
+  > div
+  > div.resizableLayoutItem.rli-root
+  > div.resizableLayoutItem.rli-editor
+  > div
+  > div
+  > div
+  > div:nth-child(4) {
+  border-top: 1px solid var(--dark-grey) !important;
+}
+
+/* tag input  */
+#react-root
+  > div
+  > div
+  > div:nth-child(2)
+  > div
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div
+  > div
+  input {
+  font-size: var(--font-size) !important;
+  padding: 0 !important;
+  background-color: initial !important;
+}
+
+#react-root
+  > div
+  > div
+  > div:nth-child(2)
+  > div
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div
+  > div
+  input:focus {
+  border: none !important;
+}
+
 /* markdown */
 .ace_text-layer {
   padding: 3%;
