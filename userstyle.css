@@ -120,6 +120,10 @@ ul ul {
   list-style-type: disc;
 }
 
+ul, ol {
+  padding-inline-start: 12px;
+}
+
 hr {
   padding: var(--base-size-4) !important;
 }
