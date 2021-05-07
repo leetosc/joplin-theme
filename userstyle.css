@@ -120,7 +120,8 @@ ul ul {
   list-style-type: disc;
 }
 
-ul, ol {
+ul,
+ol {
   padding-inline-start: 12px;
 }
 
@@ -191,12 +192,12 @@ pre {
 
 /* ```inline code``` */
 .inline-code {
-  padding: 0.3em 0.6em !important;
+  padding: 0.25em 0.6em !important;
   border-radius: var(--base-size-4) !important;
   background-color: #040404 !important;
   /* border: none !important; */
   border: 1px solid #303030;
-  color: #d8dce2 !important;
+  color: #c6b4fa !important;
 }
 
 /* ==emphasis== */
