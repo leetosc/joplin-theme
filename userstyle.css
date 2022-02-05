@@ -188,6 +188,7 @@ code blocks
 */
 pre {
   font-family: var(--font-mono) !important;
+  overflow-x: auto;
 }
 
 /* ```inline code``` */
